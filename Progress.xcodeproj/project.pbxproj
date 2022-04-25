@@ -11,6 +11,7 @@
 		04D89B412803CC7100320CD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D89B402803CC7100320CD9 /* ContentView.swift */; };
 		04D89B432803CC7400320CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D89B422803CC7400320CD9 /* Assets.xcassets */; };
 		04D89B462803CC7400320CD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D89B452803CC7400320CD9 /* Preview Assets.xcassets */; };
+		04D89B4D2803CC9D00320CD9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D89B4C2803CC9D00320CD9 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		04D89B402803CC7100320CD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04D89B422803CC7400320CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D89B452803CC7400320CD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04D89B4C2803CC9D00320CD9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				04D89B3E2803CC7100320CD9 /* ProgressApp.swift */,
 				04D89B402803CC7100320CD9 /* ContentView.swift */,
+				04D89B4C2803CC9D00320CD9 /* HomeView.swift */,
 				04D89B422803CC7400320CD9 /* Assets.xcassets */,
 				04D89B442803CC7400320CD9 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D89B4D2803CC9D00320CD9 /* HomeView.swift in Sources */,
 				04D89B412803CC7100320CD9 /* ContentView.swift in Sources */,
 				04D89B3F2803CC7100320CD9 /* ProgressApp.swift in Sources */,
 			);

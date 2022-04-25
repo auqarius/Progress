@@ -10,8 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            HomeView()
+            .navigationTitle(Text("Progress"))
+            .toolbar {
+                ToolbarItemGroup {
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+
+                }
+            }
+        }
     }
 }
 
